@@ -1,0 +1,27 @@
+Package: utility.scripts
+Title: prepare and filter mutation files
+Version: 1.0.1
+Authors@R: 
+    person(given = "Andrea",
+           family = "Degasperi",
+           role = c("aut", "cre"),
+           email = "ad923@cam.ac.uk")
+Description: What the package does (one paragraph).
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+biocViews: 
+Remotes:
+    PapenfussLab/StructuralVariantAnnotation@cb584be9474318e7f91c2cd8fca99f1212cab021
+Imports: 
+    VariantAnnotation,
+    SummarizedExperiment,
+    BiocGenerics,
+    GenomeInfoDb,
+    BSgenome,
+    stats,
+    GenomicRanges,
+    IRanges,
+    getopt,
+    stringr
+RoxygenNote: 7.1.2
