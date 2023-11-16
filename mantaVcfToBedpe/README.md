@@ -2,7 +2,7 @@
 
 ## mantaVcfToBedpe
 
-This script converts a VCF file from Manta
+This script converts a VCF file from Manta tool
 into a BEDPE format (i.e. two breakpoints of the same rearrangement on
 the same line). Moreover, a column indicating the strucutural variant
 type is added (```svclass```), and the mutations can be filtered by PASS
